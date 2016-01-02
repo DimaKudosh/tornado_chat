@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <textarea id="messageText"></textarea>
+        <input id="sendButton" type="button" value="Post"/>
+        <h2>Messages</h2>
+		<div id="messages">
+
+		</div>
+        <hr/>
+    <script src="{{ static_url('index.js') }}"></script>
+    </body>
+</html>
